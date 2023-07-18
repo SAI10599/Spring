@@ -1,5 +1,7 @@
 Use cis;
-create table Employee( first_name varchar(225), 
+create table Employee( 
+id int,
+first_name varchar(225), 
 last_name varchar(225), 
 job_start_date date, 
 salary int);
