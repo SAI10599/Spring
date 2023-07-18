@@ -4,7 +4,8 @@ id int,
 first_name varchar(225), 
 last_name varchar(225), 
 job_start_date date, 
-salary int);
+salary int,
+PRIMARY KEY(id));
 
 
 alter table Employee add column department varchar(200);
